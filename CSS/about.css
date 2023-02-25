@@ -5,9 +5,6 @@ body {
     background: url("../Img/bg-img/bg1.jpg");
   }
 
-  .body{
-    /* background-color: rgba(255, 255, 255, 0.544); */
-  }
   
   header {
     background:-webkit-linear-gradient(top left,rgba(3, 71, 135, 0.993), rgba(66, 164, 159, 0.933),rgba(1, 76, 146, 0.922));
@@ -66,8 +63,8 @@ body {
 
   #mission div{
     /* display: flex; */
-    width: 80%;
-    margin-left: 80px;
+    width: 90%;
+    margin-left: 20px;
   }
 
   #mission p{
@@ -75,6 +72,18 @@ body {
     /* float: left; */
     text-align: justify;
   }
+
+  #mission1{
+    display: flex;
+    justify-content: space-between;
+  }
+
+    #mission1 img{
+      height: 300px;
+      padding: 12px;
+      margin-left: 100px;
+      border-radius: 1rem;
+    }
   
   #team{
     align-items: center;
@@ -137,6 +146,7 @@ body {
         height: 380px;
         width: auto;
         margin: 30px;
+        border-radius: 1rem;
 
     }
   
