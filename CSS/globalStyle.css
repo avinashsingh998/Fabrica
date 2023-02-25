@@ -1,0 +1,38 @@
+.col-1{
+    color:#222831;
+
+}
+.col-2{
+    color:#393e46;
+
+}
+.col-3{
+    color:#d65a31;
+
+}
+.col-4{
+    color:#eeeeee;
+
+}
+
+.bcol-1{
+    background-color:#222831c2;
+
+}
+.bcol-2{
+    background-color:#393e46bb;
+
+}
+.bcol-3{
+    background-color:#d65a31cc;
+
+}
+.bcol-4{
+    background-color:#eeeeeec5;
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}

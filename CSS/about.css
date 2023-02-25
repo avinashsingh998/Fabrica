@@ -1,0 +1,227 @@
+body {
+    font-family: Arial, sans-serif;
+    width: 95%;
+    margin-left: 2%;
+    background: url("../Img/bg-img/bg1.jpg");
+  }
+
+  .body{
+    /* background-color: rgba(255, 255, 255, 0.544); */
+  }
+  
+  header {
+    background:-webkit-linear-gradient(top left,rgba(3, 71, 135, 0.993), rgba(66, 164, 159, 0.933),rgba(1, 76, 146, 0.922));
+    color: #fff;
+    padding: 20px;
+    margin: 0% -1%;
+    box-shadow: 3px 12px 12px rgba(178, 175, 175, 0.707);
+}
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  main {
+    margin: 20px;
+  }
+  
+  div {
+    margin-bottom: 40px;
+  }
+  
+  div h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: darkblue;
+    text-align: left;
+  }
+  
+  div p {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  
+  div ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  div li {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  div li img {
+    border-radius: 50%;
+    margin-right: 20px;
+    width: 220px;
+    height: 220px;
+  }
+
+  #mission a {
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  #mission div{
+    /* display: flex; */
+    width: 80%;
+    margin-left: 80px;
+  }
+
+  #mission p{
+    /* width: 700px; */
+    /* float: left; */
+    text-align: justify;
+  }
+  
+  #team{
+    align-items: center;
+    text-align: center;
+  }
+
+  #team-li{
+    padding: 20px;
+    background: -webkit-linear-gradient(rgba(10, 104, 255, 0.466), white);
+  }
+    .qual{
+        width: 300px;
+        margin: 3px 20px;
+    }
+
+        .qual li{
+            text-align: left;
+        }
+        
+
+    .bio{
+        text-align: justify;
+        width: 80%;
+        padding: 7px 18px;
+        border-radius: .8rem;
+        background: linear-gradient(rgb(247, 246, 246), white, rgba(10, 104, 255, 0.267));
+        /* box-shadow: 0px 2px 8px rgb(81, 80, 80); */
+    }
+
+    .bio h3{
+        text-align: center;
+        color:rgb(0, 0, 7);
+        font-size: 20px;
+    }
+
+        .bio p{
+            font-size: 17px;
+            font-family: cursive;
+            color: rgb(13, 0, 0);
+        }
+
+
+        #history li{
+            display: block;
+            /* width: max-content; */
+            padding: 4px;
+            font-size: 18px;
+            background:linear-gradient(rgba(2, 138, 183, 0.449),white, white, rgba(0, 0, 255, 0.29));
+        }
+
+
+#values{
+    background:-webkit-linear-gradient(top left, rgba(38, 38, 244, 0.4), rgba(72, 224, 219, 0.285), rgba(255, 255, 255, 0.756)), linear-gradient(rgba(244, 247, 245, 0.664), rgba(226, 248, 60, 0.427));
+    padding: 30px;
+    text-align: justify;
+    margin: 0% -1.5%;
+}
+    .values-img-r{
+        float: right;
+        height: 380px;
+        width: auto;
+        margin: 30px;
+
+    }
+  
+ /* footer  */
+
+ footer {
+    background-color: #222222e3;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .logo-container img {
+    max-width: 150px;
+  }
+  .address-container {
+    text-align: left;
+    max-width: 200px;
+  }
+  
+  .address-container p {
+    margin: 0;
+    padding: 5px 0;
+    font-size: 14px;
+  }
+  .s-m-cont a img{
+    padding-top: 120px;
+    width: 30px;
+    margin: 10px;
+    transition: transform .2s;
+
+  }
+  
+  .s-m-cont a img:hover {
+    transform: translateY(-4px) scale(1.1);
+  }
+  
+
+  .subscribe {
+    display: flex;
+    align-items: center;
+  }
+  
+  .subscribe form {
+    display: flex;
+    align-items: center;
+  }
+  
+  .subscribe input[type="email"] {
+    border: none;
+    border-radius: 1.7rem 0 0 1.7rem;
+    padding: 10px;
+    width: 200px;
+    font-size: 16px;
+  }
+  
+  .subscribe button[type="submit"] {
+    border: none;
+    border-radius: 0px;
+    padding: 10px;
+    background-color: #033b72;
+    border:1px solid #033b72;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .subscribe button[type="submit"]:hover {
+    background-color: #ffffff;
+    color: darkblue;
+    border: 1px solid black;
+  }
+  
+
+
+
+  
+  
+ 
