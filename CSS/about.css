@@ -2,7 +2,11 @@ body {
     font-family: Arial, sans-serif;
     width: 95%;
     margin-left: 2%;
-    background: url("../Img/bg-img/bg1.jpg");
+    /* background-color: rgba(0, 10, 0, 0.61); */
+    background: url("../Img/bg-img/bg1.jpg"),  rgba(4, 0, 255, 0.515);
+    /* back */
+    /* background-blend-mode: overlay; */
+    
   }
 
   
@@ -16,6 +20,7 @@ body {
   
   header h1 {
     margin: 0;
+    font-weight: h;
   }
   
   main {
@@ -149,89 +154,5 @@ body {
         border-radius: 1rem;
 
     }
-  
- /* footer  */
-
- footer {
-    background-color: #222222e3;
-    color: #fff;
-    text-align: center;
-    padding: 20px;
-  }
-  
-  .footer-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1200px;
-    margin: 0 auto;
-  }
-  
-  .logo-container img {
-    max-width: 150px;
-  }
-  .address-container {
-    text-align: left;
-    max-width: 200px;
-  }
-  
-  .address-container p {
-    margin: 0;
-    padding: 5px 0;
-    font-size: 14px;
-  }
-  .s-m-cont a img{
-    padding-top: 120px;
-    width: 30px;
-    margin: 10px;
-    transition: transform .2s;
-
-  }
-  
-  .s-m-cont a img:hover {
-    transform: translateY(-4px) scale(1.1);
-  }
-  
-
-  .subscribe {
-    display: flex;
-    align-items: center;
-  }
-  
-  .subscribe form {
-    display: flex;
-    align-items: center;
-  }
-  
-  .subscribe input[type="email"] {
-    border: none;
-    border-radius: 1.7rem 0 0 1.7rem;
-    padding: 10px;
-    width: 200px;
-    font-size: 16px;
-  }
-  
-  .subscribe button[type="submit"] {
-    border: none;
-    border-radius: 0px;
-    padding: 10px;
-    background-color: #033b72;
-    border:1px solid #033b72;
-    color: #fff;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background-color 0.2s ease-in-out;
-  }
-  
-  .subscribe button[type="submit"]:hover {
-    background-color: #ffffff;
-    color: darkblue;
-    border: 1px solid black;
-  }
-  
-
-
-
-  
   
  
