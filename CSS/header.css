@@ -68,8 +68,8 @@ header{
                     }
 
                     .searchbar button:hover{
-                        color:var(--col-1);
-                        background-color: var(--col-4);
+                        color:blue;
+                        background-color: white;
                         box-shadow: none;
                     }
 

@@ -2,21 +2,385 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="CSS/style2.css" type = "text/css">
+    <link rel="stylesheet" href="CSS/product.css" type = "text/css">
+    <link rel="stylesheet" href="CSS/header.css" type = "text/css">
+    <link rel="stylesheet" href="CSS/footer.css" type = "text/css">
     <link rel="stylesheet" href="CSS/globalStyle.css" type = "text/css">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Product</title>
 </head>
 <body>
-    <div class="main">
-        <div class="left">
+    <div class="product-head">
+        <header>
+            <div class="left-h">
+                <a href="index.html"><img src="Img/logo/fabricalogo-tr.png" alt="Logo" class="brand-logo"/></a>
+            </div>
+    
+            <div class="searchbar">
+                <form action="">
+                    <input type="text" name = "searchcont" placeholder = "Type here...">
+                    <button>Search</button>
+                </form>
+            </div>
+    
+            <div class="expand">
+                <img src="Img/logo/menu.jpg" alt="" height="30px">
+            </div>
+    
+            <div class="right-h">
+                <nav>
+                    <ul type = "none">
+                        <li><a  href="index.html">Home</a></li>
+                        <li><a  href="about.html">About</a></li>
+                        <li><a  href="#">pages</a></li>
+                        <li>
+                            <a   href="#">Categories ▼</a>
+                            <ul type = "none" id = "sublist">
+                                <li><a href="#">Men's wear</a></li>
+                                <li><a href="#">Kids wear</a></li>
+                                <li><a href="#">Girls Corner</a></li>
+                                
+                            </ul>
+                        
+                        </li>
+                        <li><a  href="#">Contact us</a></li>
+                        <li><a  href="login-resister.html">Login</a></li>
+                        
+                    </ul>
+                </nav>
+            </div>
+        </header>
+    </div>
+    <div class="prod-main">
+
+        <div class="prod-img-box">
+            <div class="prod-img-container">
+                <div class="prod-img-container-sm">
+                    <img src="Img/main/red-shirt.jpeg" alt="image of shhirt">
+                    <img src="Img/main/red-shirt1.jpeg" alt="image of shhirt">
+                    <img src="Img/main/red-shirt2.jpeg" alt="image of shhirt">
+                    <img src="Img/main/red-shirt3.jpeg" alt="image of shhirt">
+                </div>
+                <div class="prod-img-container-lg">
+                    <img class = "targetImg" src="Img/main/red-shirt.jpeg" alt="image of shhirt">
+                    <!-- <img class = "targetImg"  src="Img/main/red-shirt1.jpeg" alt="image of shhirt">
+                    <img class = "targetImg"  src="Img/main/red-shirt2.jpeg" alt="image of shhirt">
+                    <img class = "targetImg"  src="Img/main/red-shirt3.jpeg" alt="image of shhirt"> -->
+                </div>
+            </div>
+
+            <div class="prod-img-container-btn">
+                <button>Buy Now</button>
+            </div>
 
         </div>
 
-        <div class="right">
 
+        <div class="prod-right">
+            <p>Home > Cloths > Men's Wear</p>
+            <h1>The Indian Gargio co</h1>
+
+            <div class="prod-share">
+                <button>
+                    <img src="Img/logo/share.png" alt="" height="17px">
+                Share
+                </button>
+            </div>
+
+            <p><span class = "fb">Special Offer</span></p>
+            <p>$50 <span> --- 30% off</span></p>
+            <div class="prod-rating">
+                <span>4.3 <img src="Img/logo/star.svg" alt="star"></span>
+                <span>43 Ratings and 5 Reviews</span>
+            </div>
+
+
+            <div class="offers-container">
+                <h3>Available Offers</h3>
+                <ul class="offers-list">
+                  <li><img src="Img/logo/tag.webp" height = "17px" alt="tag"><span>Special Price</span> Get at flat ₹649<a href="#">T&C</a></li>
+                  <li><img src="Img/logo/tag.webp" height = "17px" alt="tag"><span>Bank Offer</span> 5% off on Google Pay UPI transaction, upto ₹25 <a href="#">T&C</a></li>
+                  <li><img src="Img/logo/tag.webp" height = "17px" alt="tag"><span>Bank Offer</span> 10% instant discount on PNB Credit Card, up to ₹1500, on orders of ₹5,000 and above <a href="#">T&C</a></li>
+                  <li><img src="Img/logo/tag.webp" height = "17px" alt="tag"><span>Bank Offer</span> 5% Cashback on Flipkart Axis Bank Card <a href="#">T&C</a></li>
+                  <li><span>+4 more offers</span></li>
+                </ul>
+              </div>
+              
+              <!-- <div class="delivery-container">
+                <h3>Deliver to</h3>
+                <form>
+                  <input type="text" placeholder="Enter delivery pincode">
+                  <button type="submit">Check</button>
+                </form>
+              </div> -->
+              
+
+
+
+            <div class="offers-container">
+                <h3 class = "prod-spech">Specification</h3>
+            <ul class = "prod-specification">
+                <li><span>Sleeve Length:</span> Long Sleeves</li>
+                <li><span>Collar:</span> Spread Collar</li>
+                <li><span>Fit:</span> Regular Fit</li>
+                <li><span>Print or Pattern Type:</span> Other Checks</li>
+                <li><span>Occasion:</span> Casual</li>
+                <li><span>Length:</span> Regular</li>
+                <li><span>Hemline:</span> Curved</li>
+                <li><span>Placket:</span> Button Placket</li>
+            </ul>
+            </div>
+            <br><br>
+            <h3>Description</h3>  
+            <p id = "prod-intro">Introducing our stunning red shirt, perfect for anyone looking for a stylish addition to their wardrobe. Crafted from premium materials, this shirt offers exceptional quality and comfort. The vibrant red color is eye-catching and versatile, making it a great choice for both casual and formal occasions. The shirt features a classic design with a flattering fit, making it suitable for any body type. Our red shirt is easy to care for and maintain, ensuring it will stay looking its best for years to come. Don't miss out on the opportunity to elevate your wardrobe with this sophisticated and timeless piece. Order now and experience the ultimate in quality and style.</p>
+        </div>
+
+    </div>
+
+
+    <div class="similar-prod">
+        <hr>
+        <h1>Similar Products</h1>
+        <div class="similar-prod-cont">
+            <div class="cont-card">
+                <img src="Img/main/similar-prod/img1.webp" alt="image shirt">
+                <div class="cont-card-cont">
+                    <div class = "cont-card-cont1">
+                        <h3>$55</h3>
+                        <p class = "blank-heart">♡</p>
+                    </div>
+                    <p class = "cont-card-cont2">Men slim fit checkbox shirt</p>
+                    <p class = "cont-card-cont3">Delivery Expected : <span class="col-green">Today</span></p>
+                </div>
+            </div>
+
+
+            <div class="cont-card">
+                <img src="Img/main/similar-prod/img2.webp" alt="image shirt">
+                <div class="cont-card-cont">
+                    <div class = "cont-card-cont1">
+                        <h3>$65</h3>
+                        <p class = "red-heart">❤️</p>
+                    </div>
+                    <p class = "cont-card-cont2">Men slim fit darkred shirt</p>
+                    <p class = "cont-card-cont3">Delivery Expected : <span class="col-red">After 4 days</span></p>
+                </div>
+            </div>
+
+
+            <div class="cont-card">
+                <img src="Img/main/similar-prod/img6.webp" alt="image shirt">
+                <div class="cont-card-cont">
+                    <div class = "cont-card-cont1">
+                        <h3>$30</h3>
+                        <p class = "red-heart">❤️</p>
+                    </div>
+                    <p class = "cont-card-cont2">Black and white T-shirt</p>
+                    <p class = "cont-card-cont3">Delivery Expected : <span class="col-green">Tomarrow</span></p>
+                </div>
+            </div>
+
+
+            <div class="cont-card">
+                <img src="Img/main/similar-prod/img11.webp" alt="image shirt">
+                <div class="cont-card-cont">
+                    <div class = "cont-card-cont1">
+                        <h3>$92</h3>
+                        <p class = "blank-heart">♡</p>
+                    </div>
+                    <p class = "cont-card-cont2">Sleeper man</p>
+                    <p class = "cont-card-cont3">Delivery Expected : <span class="col-orange">Within 3 days</span></p>
+                </div>
+            </div>
+
+
+            <div class="cont-card">
+                <img src="Img/main/similar-prod/img3.webp" alt="image shirt">
+                <div class="cont-card-cont">
+                    <div class = "cont-card-cont1">
+                        <h3>$45</h3>
+                        <p class = "blank-heart">♡</p>
+                    </div>
+                    <p class = "cont-card-cont2">Men Regular light blue shirt</p>
+                    <p class = "cont-card-cont3">Delivery Expected : <span class="col-green">Today</span></p>
+                </div>
+            </div>
+
+
+            <div class="cont-card">
+                <img src="Img/main/similar-prod/img4.webp" alt="image shirt">
+                <div class="cont-card-cont">
+                    <div class = "cont-card-cont1">
+                        <h3>$63</h3>
+                        <p class = "red-heart">❤️</p>
+                    </div>
+                    <p class = "cont-card-cont2">White fir shirt</p>
+                    <p class = "cont-card-cont3">Delivery Expected : <span class="col-red">After 5 days</span></p>
+                </div>
+            </div>
+
+
+            <div class="cont-card">
+                <img src="Img/main/similar-prod/img12.webp" alt="image shirt">
+                <div class="cont-card-cont">
+                    <div class = "cont-card-cont1">
+                        <h3>$99</h3>
+                        <p class = "blank-heart">♡</p>
+                    </div>
+                    <p class = "cont-card-cont2">Adidas shoes, Black & white</p>
+                    <p class = "cont-card-cont3">Delivery Expected : <span class="col-orange">Within 4 days</span></p>
+                </div>
+            </div>
+
+
+            <div class="cont-card">
+                <img src="Img/main/similar-prod/img7.webp" alt="image shirt">
+                <div class="cont-card-cont">
+                    <div class = "cont-card-cont1">
+                        <h3>$25</h3>
+                        <p class = "red-heart">❤️</p>
+                    </div>
+                    <p class = "cont-card-cont2">Men Printed Hooded Neck White, Black T-Shirt</p>
+                    <p class = "cont-card-cont3">Delivery Expected : <span class="col-green">Today</span></p>
+                </div>
+            </div>
+
+
+            <div class="cont-card">
+                <img src="Img/main/similar-prod/img8.webp" alt="image shirt">
+                <div class="cont-card-cont">
+                    <div class = "cont-card-cont1">
+                        <h3>$35</h3>
+                        <p class = "red-heart">❤️</p>
+                    </div>
+                    <p class = "cont-card-cont2">Sky blue cool T-shirt</p>
+                    <p class = "cont-card-cont3">Delivery Expected : <span class="col-orange">Within 3 days</span></p>
+                </div>
+            </div>
+
+
+            <div class="cont-card">
+                <img src="Img/main/similar-prod/img5.webp" alt="image shirt">
+                <div class="cont-card-cont">
+                    <div class = "cont-card-cont1">
+                        <h3>$55</h3>
+                        <p class = "red-heart">❤️</p>
+                    </div>
+                    <p class = "cont-card-cont2">Men slim fit checkbox shirt</p>
+                    <p class = "cont-card-cont3">Delivery Expected : <span class="col-red">After 4 days</span></p>
+                </div>
+            </div>
+
+
+            <div class="cont-card">
+                <img src="Img/main/similar-prod/img13.webp" alt="image shirt">
+                <div class="cont-card-cont">
+                    <div class = "cont-card-cont1">
+                        <h3>$72</h3>
+                        <p class = "blank-heart">♡</p>
+                    </div>
+                    <p class = "cont-card-cont2">Casual footwares, Pack of 2</p>
+                    <p class = "cont-card-cont3">Delivery Expected : <span class="col-green">Today</span></p>
+                </div>
+            </div>
+
+
+            <div class="cont-card">
+                <img src="Img/main/similar-prod/img9.webp" alt="image shirt">
+                <div class="cont-card-cont">
+                    <div class = "cont-card-cont1">
+                        <h3>$28</h3>
+                        <p class = "red-heart">❤️</p>
+                    </div>
+                    <p class = "cont-card-cont2">Men slim fit blue T-shirt</p>
+                    <p class = "cont-card-cont3">Delivery Expected : <span class="col-green">Tomarrow</span></p>
+                </div>
+            </div>
+
+
+            <div class="cont-card">
+                <img src="Img/main/similar-prod/img10.webp" alt="image shirt">
+                <div class="cont-card-cont">
+                    <div class = "cont-card-cont1">
+                        <h3>$55</h3>
+                        <p class = "blank-heart">♡</p>
+                    </div>
+                    <p class = "cont-card-cont2">Formal shoes and footware</p>
+                    <p class = "cont-card-cont3">Delivery Expected : <span class="col-green">Tomarrow</span></p>
+                </div>
+            </div>
+
+
+            <div class="cont-card">
+                <img src="Img/main/similar-prod/igm15.webp" alt="image shirt">
+                <div class="cont-card-cont">
+                    <div class = "cont-card-cont1">
+                        <h3>$88</h3>
+                        <p class = "blank-heart">♡</p>
+                    </div>
+                    <p class = "cont-card-cont2">Puma black & whute shoes</p>
+                    <p class = "cont-card-cont3">Delivery Expected : <span class="col-green">Today</span></p>
+                </div>
+            </div>
+
+
+            <div class="cont-card">
+                <img src="Img/main/similar-prod/img14.webp" alt="image shirt">
+                <div class="cont-card-cont">
+                    <div class = "cont-card-cont1">
+                        <h3>$85</h3>
+                        <p class = "red-heart">❤️</p>
+                    </div>
+                    <p class = "cont-card-cont2">Adidas White Shoes</p>
+                    <p class = "cont-card-cont3">Delivery Expected : <span class="col-orange">Within 4 days</span></p>
+                </div>
+            </div>
+
+
+            
         </div>
     </div>
+
+
+    <footer>
+        <div class="footer-container">
+          <div class="logo-container">
+            <a href="index.html">                
+                <img src="Img/logo/fabricalogo-tr.png" alt="Fabrica Logo">
+            </a>
+                <div class="address-container">
+                <p>Fabrica Clothing Co.</p>
+                <p>123 Main St.</p>
+                <p>Suite 456</p>
+                <p>Anytown, USA 12345</p>
+              </div>
+          </div>
+
+          
+
+          <div class="subscribe">
+            <form action="#" method="">
+              <input type="email" name="" placeholder="Enter your email" required>
+              <button type="submit" name="">Subscribe</button>
+            </form>
+          </div>
+          
+
+          <div class="s-m-cont">
+            <a href="#"><img src="Img/logo/facebook.jpg" alt=""></a>
+            <a href="#"><img src="Img/logo/insta.jpg" alt=""></a>
+            <a href="#"><img src="Img/logo/twit.jpg" alt=""></a>
+            
+          </div>
+
+          
+          
+        </div>
+
+        <p>&copy; 2023 Fabrica. All rights reserved.</p>      
+    </footer>
+      
+
 </body>
 </html>
