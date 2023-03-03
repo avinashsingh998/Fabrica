@@ -1,6 +1,4 @@
-div{
-    /* border:1px solid black; */
-}
+
 .login{
     width: max-content;
     height: max-content;
@@ -10,9 +8,6 @@ div{
     background-color: rgba(255, 255, 255, 0.796);
     border-radius: 2rem;
     /* box-shadow: ; */
-}
-td{
-    /* border: 1px solid red; */
 }
 
 table{

@@ -14,7 +14,7 @@ table{
         padding: 12px;
     }
 
-    td:first-child{}
+
 
     td:last-child input[type = "text"],
     td:last-child input[type = "password"],
