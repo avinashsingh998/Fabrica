@@ -36,3 +36,12 @@ a{
     text-decoration: none;
     color: black;
 }
+
+#footer-frame{
+    width: 100%;
+    height: 350px;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+
+}

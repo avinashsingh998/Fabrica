@@ -82,7 +82,7 @@ body{
 		display: block;
 		width: 250px;
 		border-radius: 1rem;
-		background-color: #e0e0e0;
+		background-color: var(--col-4);
 		border: .5px solid rgb(170, 169, 169);
 		box-shadow: 2px 2px 22px 0px gray;
 		opacity:.8;

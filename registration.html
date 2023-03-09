@@ -2,42 +2,43 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="CSS/register.css" type = "text/css">
+    <script type = "text/javascript" src = "JS/login-register.js" ></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
-    <form action="#">
+    <form action="#" onchange="resetResister();">
         <table>
             <tr>
                 <td>Enter your First Name : </td>
-                <td><input type="text" name = "" placeholder="e.g. Ketan"></td>
+                <td><input type="text" name = "" placeholder="e.g. Ketan" id = "fname"></td>
             </tr>
 
             <tr>
                 <td>Enter your last name : </td>
-                <td><input type="text" name = "" placeholder="e.g. Jindal"></td>
+                <td><input type="text" name = "" placeholder="e.g. Jindal" id = "lname"></td>
             </tr>
 
             <tr>
                 <td>Enter your Mail Id : </td>
-                <td><input type="email" name = "" placeholder="e.g. ketan.jindal@netsmartz.net"></td>
+                <td><input type="email" name = "" placeholder="e.g. ketan.jindal@netsmartz.net" id = "email"></td>
             </tr>
 
             <tr>
                 <td>Enter Password : </td>
-                <td><input type="password" name = "" placeholder="Enter strong password"></td>
+                <td><input type="password" name = "" placeholder="Enter strong password" id = "pass"></td>
             </tr>
 
             <tr>
                 <td>Re-enter Password : </td>
-                <td><input type="password" name = "" placeholder="Confirm password"></td>
+                <td><input type="password" name = "" placeholder="Confirm password" id = "vpass"></td>
             </tr>
 
             <tr>
                 <td>Phone Number : </td>
-                <td><input type="text" name = "" value = "+91 " placeholder="+91 _ _ _ _ _  _ _ _ _ _"></td>
+                <td><input type="text" name = "" value = "+91 " placeholder="+91 _ _ _ _ _  _ _ _ _ _" id = "contNo"></td>
             </tr>
 
             <tr>
@@ -45,13 +46,17 @@
                 <td>
                     <input type="radio" name = "g" value = "m"> Male
                     <input type="radio" name = "g" value = "f"> Female
+                    <span class="msgCust" id = "gender" ></span>
                     
                 </td>
             </tr>
 
             <tr>
                 <td>Enter Full Address : </td>
-                <td><textarea name="" id="" cols="30" rows="4"></textarea></td>
+                <td>
+                    <p class = "msgCust" id = "alertAdd"> </p>
+                    <textarea name="" id="address" cols="30" rows="4"></textarea>
+                </td>
             </tr>
 
             <tr>
@@ -59,7 +64,8 @@
                     <a href="login.html">Already a User? Login</a>
                 </td>
                 <td>
-                    <button>Register</button>
+                    <button type = "reset" onclick="resetResister();">Reset</button>
+                    <button type = "button" onclick="validateRegister();">Register</button>
                 </td>
             </tr>
             

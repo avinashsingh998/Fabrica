@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <script type = "text/javascript" src = "JS/login-register.js" ></script>
     <link rel="stylesheet" href="CSS/login.css" type = "text/css">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,7 +16,7 @@
                     User Name:
                 </td>
                 <td class="login-right">
-                    <input type="text" name = "name" placeholder = "Enter your username" required>
+                    <input id = "uname" type="text" name = "name"  placeholder = "Enter your username" required>
                 </td>
             </tr>
 
@@ -24,13 +25,13 @@
                     Password:
                 </td>
                 <td class="login-right">
-                    <input type="password" name = "name" placeholder="Enter password" required>
+                    <input id = "pass" type="password" name = "name" placeholder="Enter password" required>
                 </td>
             </tr>
 
             <tr>
                 <td class = "login-btn">
-                    <button type = "submit" value = "login">Login</button>
+                    <button type = "submit" onclick = "validateLogin();" value  = "login">Login</button>
                 </td>
 
                 <td>

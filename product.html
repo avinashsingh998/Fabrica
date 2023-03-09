@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <script type = "text/javascript" src = "JS/product.js" ></script>
     <link rel="stylesheet" href="CSS/product.css" type = "text/css">
     <link rel="stylesheet" href="CSS/header.css" type = "text/css">
     <link rel="stylesheet" href="CSS/footer.css" type = "text/css">
@@ -57,16 +58,14 @@
         <div class="prod-img-box">
             <div class="prod-img-container">
                 <div class="prod-img-container-sm">
-                    <img src="Img/main/red-shirt.jpeg" alt="image of shhirt">
-                    <img src="Img/main/red-shirt1.jpeg" alt="image of shhirt">
-                    <img src="Img/main/red-shirt2.jpeg" alt="image of shhirt">
-                    <img src="Img/main/red-shirt3.jpeg" alt="image of shhirt">
+                    <img src="Img/main/red-shirt.jpeg" alt="image of shhirt" onmouseover="updateImage(this)">
+                    <img src="Img/main/red-shirt1.jpeg" alt="image of shhirt" onmouseover="updateImage(this)">
+                    <img src="Img/main/red-shirt2.jpeg" alt="image of shhirt" onmouseover="updateImage(this)">
+                    <img src="Img/main/red-shirt3.jpeg" alt="image of shhirt" onmouseover="updateImage(this)">
                 </div>
                 <div class="prod-img-container-lg">
-                    <img class = "targetImg" src="Img/main/red-shirt.jpeg" alt="image of shhirt">
-                    <!-- <img class = "targetImg"  src="Img/main/red-shirt1.jpeg" alt="image of shhirt">
-                    <img class = "targetImg"  src="Img/main/red-shirt2.jpeg" alt="image of shhirt">
-                    <img class = "targetImg"  src="Img/main/red-shirt3.jpeg" alt="image of shhirt"> -->
+                    <img class = "targetImg" id = "targetImg" src="Img/main/red-shirt.jpeg" alt="image of shhirt">
+                    
                 </div>
             </div>
 
