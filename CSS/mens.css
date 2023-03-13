@@ -1,0 +1,162 @@
+.men-main-1{
+    display: flex;
+    /* height: 550px; */
+    margin: 30px 0px;
+    padding: 50px 0px;
+    align-items: center;
+    justify-content: space-between;
+    /* background-image: url("../Img/main/bg-header-top.jpg");
+    background-size: cover;
+    /* background-color: rgba(212, 212, 249, 0.703); */
+    /* background-blend-mode: hard-light; */
+    background:-webkit-linear-gradient(left, rgba(187, 189, 189, 0.621), rgba(158, 254, 216, 0.323), rgba(255, 255, 255, 0.029)), -webkit-linear-gradient(rgba(149, 231, 248, 0.67), rgba(255, 255, 255, 0.029), rgba(0, 0, 255, 0.297)); 
+}
+
+    .men-main-1-l{
+        padding: 30px;
+        align-items: center;
+        text-align: center;
+        padding: 20px 30px;
+    }
+
+        .men-main-1-l h1{
+            font-size: 44px;
+            /* text-shadow: 3px 3px 6px rgba(118, 118, 161, 0.752); */
+            color:red;
+            width: 60%;
+            margin: 0% 20%;
+            font-family: 'Tilt Prism', cursive;
+
+        }
+
+        .men-main-1-l h3{
+            font-family: 'Dancing Script', cursive;
+            color: rgb(1, 4, 203);
+            line-height: 50px;
+            font-size: 23px;
+        }
+        .men-main-1-l p{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            width: 70%;
+            margin: 0% 15%;
+        }
+
+
+
+    .men-main-1-r{
+        display: flex;
+    }
+
+        .men-main-1-r img{
+            height: 480px;
+        }
+
+
+/* secode section  */
+
+.men-sidebar{
+    float: left;
+    padding: 20px 30px;
+    top:20px;
+    background-color: rgb(233, 233, 233);
+    position:sticky;
+}
+
+    .men-sidebar h2{
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(166, 1, 1);
+    }
+
+    .men-sidebar h3{
+        font-family: 'Tilt Prism', cursive;
+        color: rgb(139, 38, 1);
+    }
+
+        .men-sidebar-d{
+            margin: 10px 30px;
+        }
+
+            .men-sidebar-d ul{
+                list-style: none;
+                padding-inline-start: 20px;
+
+            }
+
+
+            .men-sidebar-d ul li{
+                font-family: 'Pacifico', cursive;
+                color: rgb(66, 66, 119);
+                font-size: 16px;
+
+            }
+
+                .men-sidebar-d li span{
+                    display: inline-block;
+                    width: 16px;
+                    height: 16px;
+                    margin: 0px 10px;
+                    border-radius: 50%;
+                    border: 1px solid black;
+                }
+.men-second-r{
+    margin-left: 280px;
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    justify-content: center;
+}
+
+    .men-card{
+        /* border:1px solid black; */
+        height: 400px;
+        width: 270px;
+        padding: 0px 20px;
+    }
+        .men-card-imgs{
+            /* position: relative; */
+            top:0px;
+        }
+
+            .men-card-imgs img{
+                width: 270px;
+                height: 300px;
+            }
+        .men-card-rating{
+            position: relative;
+            display: inline-block;
+            bottom:30px;
+            left: 10px;
+            padding: 1px 5px;
+            font-weight: bold;
+            color: darkgreen;
+            background-color: rgba(255, 255, 255, 0.916);
+        }
+        .men-card-name{
+            position:relative;
+            bottom: 20px;
+            margin: 0px 10px;
+        }
+        .men-card-details{
+            margin: 0px 10px;
+            position: relative;
+            bottom: 15px;
+
+        }
+        .men-card-price{
+            margin-left: 10px;
+            font-weight: bold;
+
+        }
+        .men-card-price1{
+            font-size: 14px;
+            color: gray;
+            text-decoration: line-through;
+
+        }
+        .men-card-off{
+            color: red;
+
+        }
+
+
+       

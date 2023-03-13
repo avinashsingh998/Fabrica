@@ -68,10 +68,4 @@ table{
 
 
 
-    /* some code for js  */
-
-    .invalidInput::placeholder{
-        color: rgb(251, 54, 54);
-        font-size: 13px;
-        
-    }
+    

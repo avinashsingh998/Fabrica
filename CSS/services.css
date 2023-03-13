@@ -1,0 +1,246 @@
+.serv-main{
+
+}
+
+    .serv-first{
+        background-image: url("../Img/bg-img/serv-bg.webp");
+        background-color: rgba(15, 15, 159, 0.582);
+        background-blend-mode: color;
+        background-size: 1500px 700px;
+        height: 330px;
+        text-align: center;
+        padding: 12% 20%;
+        align-items: center;
+        overflow: hidden;
+    }
+
+        /* .serv-first-blink1{
+            width: 80%;
+            overflow: hidden;
+        } */
+
+
+    .serv-first-1, .serv-first-2, .serv-first-3, .serv-first-4{
+        position: relative;
+        width: 100%;
+        
+    }
+
+   
+    .serv-first-3, .serv-first-4{
+        position: relative;
+        top:-240px;
+        /* top:360px; */
+
+    }
+
+    .serv-first-1{
+        animation: avi 6s  infinite;
+        left:0%
+
+    }
+    .serv-first-2{
+        left:0%;
+        animation: avi1 6s  infinite;
+
+    }
+    .serv-first-3{
+        left:0%;
+        animation: avi 6s  3s   infinite;
+        opacity: 0;
+
+
+    }
+    .serv-first-4{
+        left: 0%;
+        animation: avi1 6s 3s  infinite;
+        opacity: 0;
+
+
+    }
+        
+
+        .serv-head-large{
+            font-family: 'Noto Serif', serif;
+            font-size: 80px;
+            letter-spacing: 5px;
+            color: white;
+            text-transform: uppercase;
+        }
+        .serv-head-sm{
+            font-family: 'Dancing Script', cursive;
+            font-size: 80px;
+            margin: 0px 20px;
+            color: rgb(98, 98, 252);
+        }
+        .serv-first-2 button, .serv-first-4 button, .special-btn{
+            text-transform: uppercase;
+            padding: 18px;
+            font-weight: bold;
+            background:-webkit-linear-gradient(122deg, red, rgb(251, 60, 60), red ,red , rgb(253, 112, 112), red);
+            color: wheat;
+            border: none;
+            margin: 40px 20px;
+            box-shadow: 0px 0px 5px gray;
+        }
+
+        
+    
+    
+
+   
+
+
+        @keyframes avi {
+            0%{
+                opacity: 1;
+            }
+
+            45%{
+                opacity: 1;
+                transform: translateY(0px);
+            }
+
+            50%{
+                opacity: 0;
+                transform: translateY(200px);
+            }
+            95%{
+                opacity: 0;
+                transform: translateX(-100%);
+            }
+            100%{
+                opacity: 1;
+                transform: translateX(0%)
+            }
+            
+        }@keyframes avi1 {
+            0%{
+                opacity: 1;
+            }
+            45%{
+                opacity: 1;
+                transform: translateY(0px);
+            }
+            50%{
+                opacity: 0;
+                transform: translateY(-200px);
+            }
+
+            95%{
+                opacity: 0;
+                transform: translateX(100%);
+            }
+            100%{
+                opacity: 1;
+                transform: translateX(0%)
+            }
+            
+            
+        }
+
+
+
+
+/* second section  */
+
+.serv-sec{
+    width: 90%;
+    margin: 1% 5%;
+    display: flex;
+    padding: 30px 10px;
+    justify-content: space-between;
+}
+
+    .serv-sec-1 img{
+        margin: 70px 20px;
+        height: 500px;
+    }
+
+        .serv-sec-2{
+            width: 700px;
+        }
+    
+
+            .serv-sec-2 h1{
+                font-family: 'Merienda', cursive;
+                font-size: 64px;
+                text-transform: uppercase;
+                color: rgb(66, 66, 66);
+            }.serv-sec-2 h6{
+                color: orangered;
+                letter-spacing: 4px;
+                font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            }.serv-sec-2 p{
+                line-height: 47px;
+                color: rgb(93, 92, 92);
+                margin-bottom: 50px;
+                font-family: Arial, Helvetica, sans-serif;
+                letter-spacing: 2px;
+                text-align: justify;
+                font-size: 18px;
+            }
+
+
+
+
+/* third section  */
+
+.serv-third-h{
+    margin: 170px 20px 10px 20px;
+    text-align: center;
+}
+    .serv-third-head{
+        letter-spacing: -4px;
+        color: rgb(124, 51, 24);
+        font-size: 24px;
+    }.serv-third-headM{
+        font-family: Arial, Helvetica, sans-serif;
+        text-transform: uppercase;
+        margin-right: -8px;
+    }
+
+    /* third section contant  */
+
+    .serv-third-cont{
+        display: flex;
+        padding: 5%;
+    }
+        .serv-third-cards{
+            margin: 10px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0px 10px 12px -7px rgb(173, 173, 173);
+        }
+
+            .serv-third-cards img{
+                height: 250px;
+                width: 250px;
+                border-radius: 50%;
+            }
+
+            .serv-third-cards h2{
+                text-transform: uppercase;
+                font-family: 'Merienda', cursive;
+                color: rgb(49, 49, 109);
+            }
+            .serv-third-cards p{
+                height: 100px;
+                font-size: 17px;
+                line-height: 28px;
+                font-family: Arial, Helvetica, sans-serif;
+                color: rgb(203, 117, 12);
+            }
+            .serv-third-cards button{
+                text-transform: uppercase;
+                padding: 10px 25px;
+                font-size: 17px;
+                border: none;
+                border-radius: 2px;
+                background:-webkit-linear-gradient(112deg, red, red, rgb(251, 99, 99), red, red, red,rgb(251, 99, 99), red ,red);
+                color: wheat;
+                transition: filter .3s;
+            }
+            .serv-third-cards button:hover{
+                filter:brightness(150%);
+            }

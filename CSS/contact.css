@@ -20,7 +20,7 @@ body{
         margin: 40px 10px 40px 90px;
         padding: 30px;
         /* background-image: url("../Img/bg-img/gray\ texture.jpg"); */
-        background-color: rgba(255, 255, 255, 0.999);
+        background-color:#effcef;
         background-blend-mode: lighten;
         border-radius: 3rem 0rem;
     }
@@ -46,7 +46,7 @@ body{
 
             .form input, .form textarea{
                 margin: 12px;
-                background: rgba(253, 251, 251, 0.144);
+                background: white;
                 width: 270px;
                 padding: 7px 12px;
                 height: auto;
@@ -97,9 +97,11 @@ body{
 
             .cont-r h1{
                 font-size: 44px;
-                color:rgba(208, 229, 255, 0.812);
+                /* color:rgba(208, 229, 255, 0.812); */
+                color:hwb(213 69% 3% / 0.956);
                 filter: drop-shadow(0px 0px 1px rgb(7, 0, 0));
                 text-shadow: 1px 1px 1px  rgb(3, 0, 0);
+                
 
             }
 
