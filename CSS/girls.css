@@ -1,0 +1,279 @@
+.girls-main-1{
+    display: flex;
+    /* height: 550px; */
+    margin: 30px 0px;
+    padding: 50px 0px 0px 0px;
+    align-items: center;
+    justify-content: space-between;
+    background:-webkit-linear-gradient(left, rgba(253, 230, 98, 0.44), rgba(158, 254, 216, 0.323), rgba(255, 255, 255, 0.029)), -webkit-linear-gradient(rgba(149, 231, 248, 0.67), rgba(255, 255, 255, 0.029), rgba(255, 0, 179, 0.396)); 
+}
+
+    .girls-main-1-l{
+        align-items: center;
+        text-align: center;
+        padding: 50px 30px;
+    }
+
+        .girls-main-1-l h1{
+            font-size: 44px;
+            /* text-shadow: 3px 3px 6px rgba(118, 118, 161, 0.752); */
+            color:red;
+            width: 60%;
+            margin: 0% 20%;
+            font-family: 'Tilt Prism', cursive;
+
+        }
+
+        .girls-main-1-l h3{
+            font-family: 'Dancing Script', cursive;
+            color: rgb(1, 4, 203);
+            line-height: 50px;
+            font-size: 23px;
+        }
+        .girls-main-1-l p{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            width: 70%;
+            margin: 0% 15%;
+        }
+
+
+
+    .girls-main-1-r{
+        display: flex;
+    }
+
+        .girls-main-1-r img{
+            height: 500px;
+        }
+
+
+/* secode section  */
+
+.girls-second{}
+
+.girls-sidebar{
+    float: left;
+    padding: 20px 30px;
+    top:-110px;
+    background-color: rgba(255, 255, 255, 0.823);
+    /* text-shadow: -20px -7px 5px rgb(126, 123, 123); */
+    position:sticky;
+}
+
+    .girls-sidebar h2{
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+        color: rgb(166, 1, 1);
+    }
+
+    .girls-sidebar h3{
+        font-family: 'Tilt Prism', cursive;
+        color: rgb(139, 38, 1);
+    }
+
+        .girls-sidebar-d{
+            margin: 10px 30px;
+        }
+
+            .girls-sidebar-d ul{
+                list-style: none;
+                padding-inline-start: 20px;
+
+            }
+
+
+            .girls-sidebar-d ul li{
+                font-family: 'Pacifico', cursive;
+                color: rgb(66, 66, 119);
+                font-size: 16px;
+
+            }
+
+                .girls-sidebar-d li span{
+                    display: inline-block;
+                    width: 16px;
+                    height: 16px;
+                    margin: 0px 10px;
+                    border-radius: 50%;
+                    border: 1px solid black;
+                }
+.girls-second-r{
+    margin-left: 80px;
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    background-image: url(../Img/bg-img/pinkbg.jpg);
+    background-color: rgba(212, 220, 245, 0.511);
+    
+    background-blend-mode: color;
+    background-size: cover;
+    justify-content: center;
+    background-attachment: fixed;
+    margin-bottom: 30px;
+    /* color: wheat; */
+}
+
+    .girls-card{
+        /* border:.5px solid black; */
+        height: 360px;
+        border-radius: 15px 15px 0px 0px;
+        transition: transform .2s, filter .2s;
+        width: 230px;
+        margin: 30px 20px;
+        box-shadow: 0px 2px 12px -1px gray;
+        background: -webkit-linear-gradient(-80deg, rgb(255, 255, 255), rgb(255, 255, 255), rgb(255, 255, 255), rgb(253, 253, 253), rgb(255, 255, 255), rgba(162, 160, 160, 0.632), rgba(255, 255, 255, 0.889), rgba(130, 128, 128, 0.878));
+    }.girls-card:hover .girls-card-rating{
+        bottom: 40px;
+        color: rgb(184, 253, 184);
+        background-color: rgba(7, 0, 0, 0.851);
+    }.girls-card:hover{
+        transform: scale(1.04);
+        /* filter:brightness(110%) contrast(120%) ; */
+    }.girls-card:hover img{
+        opacity: .8;
+    }
+        .girls-card-imgs{
+            /* position: relative; */
+            top:0px;
+            border-radius: 15px 15px 0px 0px;
+            height: 250px;
+            overflow: hidden;
+
+        }
+
+            .girls-card-imgs img{
+                width: 230px;
+                transition: opacity .4s;
+                border-radius: 15px 15px 0px 0px;
+            }
+        .girls-card-rating{
+            transition: color .5s, background-color .5s, bottom 1s;
+            position: relative;
+            display: inline-block;
+            bottom:20px;
+            left: 10px;
+            padding: 1px 5px;
+            font-weight: bold;
+            color: rgba(0, 100, 0, 0);
+            background-color: rgba(255, 255, 255, 0);
+        }
+        .girls-card-name{
+            position:relative;
+            bottom: 20px;
+            margin: 0px 10px;
+            color:rgb(0, 0, 66);
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 18px;
+        }
+        .girls-card-details{
+            font-family: cursive;
+            font-size: 13px;
+            color: rgb(35, 35, 35);
+            margin: 0px 10px;
+            position: relative;
+            bottom: 15px;
+
+        }
+        .girls-card-price{
+            margin-left: 10px;
+            font-weight: bold;
+
+        }
+        .girls-card-price1{
+            font-size: 14px;
+            color: gray;
+            text-decoration: line-through;
+
+        }
+        .girls-card-off{
+            color: red;
+
+        }
+
+
+     
+        
+
+
+        /* featured product  */
+.girls-featured{
+    background-image: url(../Img/bg-img/girlspagebg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: rgba(0, 0, 0, 0.73);
+    background-blend-mode: color;
+}
+        .girls-featured h1{
+            text-align: center;
+            text-decoration: solid;
+            margin-top: 80px;
+            padding-top: 40px;
+            font-size: 44px;
+            color: wheat;
+            font-family: 'Tilt Prism', cursive;
+
+        }
+
+        .g-f-cards{
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+            .g-f-card{
+                position: relative;
+                margin: 40px;
+                /* padding: 5px; */
+                border:12px solid white;
+                background-color: white;
+                height: 440px;
+                width: 319px;
+            }
+
+                .g-f-card img{
+                    height: 440px;
+                    width: 319px;
+                    /* margin: -5px; */
+                    /* position: absolute; */
+                    transition:  all .4s;
+                }.g-f-card img:hover{
+                    /* transform: rotateX(40deg) scaleY(1.6); */
+                    transform: rotateY(10deg) scale(1.14);
+                    clip-path: polygon(0% 0%, 100% 0%, 93% 100%, 7% 100%);
+                    transform-origin: bottom;
+                    /* border: 1px solid black; */
+                    border-radius: 2rem;
+                }
+                
+                .g-f-card p:nth-child(2){
+                    position: absolute;
+                    top:300px;
+                    font-size: 18px;
+                    color: darkblue;
+                    padding: 0px 10px;
+                    border-radius: 4px;
+                    font-weight: bold;
+                    margin: 7px;
+                    background-color: rgba(207, 207, 207, 0.637);
+
+                }.g-f-card p:nth-child(3){
+                    position: absolute;
+                    color: red;
+                    top:350px;
+                    border-radius: 4px;
+                    font-weight: bold;
+                    font-size: 18px;
+                    padding: 0px 10px;
+                    margin: 7px;
+                    letter-spacing: 3px;
+                    float: right;
+                    text-shadow: 0px 0px 0px red;
+                    background-color: rgba(1, 1, 1, 0.848);
+                }
+                .g-f-card h3{
+                    position: absolute;
+                    top:280px;
+                    right:10px;
+                    font-size: 28px;
+                    font-family: Arial, Helvetica, sans-serif;
+                    text-shadow: 0px 0px 2px white;
+
+                }

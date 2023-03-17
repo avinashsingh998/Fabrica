@@ -29,7 +29,9 @@ div{
 }
 
     .prod-main{
-        /* margin-top: 100px; */
+        margin-top: 120px;
+        /* display: flex; */
+        position: relative;
         /* position: relative; */
     }
 
@@ -37,9 +39,8 @@ div{
             position: sticky;
             border-radius: .2rem;
             float: left;
-            top:130px;
+            top:100px;
             background-color: rgba(240, 248, 255, 0.642);
-            bottom: 0px;
         }
 
             .prod-img-container{
@@ -109,9 +110,10 @@ div{
 
     .prod-right{
         /* height: 1900px; */
-        margin-left: 550px;
+        /* margin-left: 550px; */
         padding: 30px 100px;
-        margin-top: 130px;
+        display: flow-root;
+        /* margin-top: 130px; */
         background-color: rgba(227, 221, 221, 0.878);
     }
 

@@ -141,6 +141,7 @@ body{
 
     .faq-item{
         padding: 20px;
+        position: relative;
     }
 
     .cont-faq-quest::before{
@@ -167,6 +168,8 @@ body{
         display: none;
         font-family: Arial, Helvetica, sans-serif;
         position: absolute;
+        top:90px;
+        left: 60px;
         font-size: 18px;
         width: 400px;
         background-color: white;
@@ -177,8 +180,10 @@ body{
 
     .cont-faq-quest:hover ~ .cont-faq-ans{
         display: block;
+        z-index: +1;
     }
 
 
-    
-    
+
+
+   

@@ -273,7 +273,8 @@ body{
 	.third-ticket{
 		border:15px solid rgb(26, 0, 0);
 		margin: 0px .5px;
-		/* position: absolute; */
+		position: relative;
+		overflow: hidden;
 	}
 
 		.third-ticket img{
@@ -284,26 +285,27 @@ body{
 		.name-third{
 			position: absolute;
 			/* margin-top: 220px; */
-			height: 63.6%;
+			height: 100%;
 			background-color: #a81f0098;
-			width: 31%;
-			display: none;
-			/* align-self: center; */
+			width: 100%;
+			/* display: none; */
+			transform: translateY(102%);
+			align-items: center;
 			text-align: center;
-			transition: display 1s;
+			transition: transform .7s;
 
 
 		}
 
 		.third-ticket:hover div{
-			display: block;
+			transform: translateY(0%);
 		}
 
 		.name-third p{
 			align-items: center;
-			/* margin-top: 50%; */
-			font-size: 22px;
-			color:yellow;
+			margin-top: 48%;
+			font-size: 2.3vw;
+			color:white;
 		}
 
 

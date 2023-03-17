@@ -29,7 +29,9 @@ function validate(){
     }
 
     if(flag){
-        alert("Submitted successfully. \nWe will contact you soon.");
+        document.getElementById("custAlert-cont").innerHTML = "Your query has been recorded, We will contact you soon. <br> <strong> Thanks! </strong>";
+        document.getElementById("cont-main").style.webkitFilter = "blur(2px)";  
+        $("#custAlert").fadeIn(300);
     }
 
 
@@ -51,5 +53,22 @@ function custreset(){
 
     
     
+
+}
+
+
+
+
+document.addEventListener("keydown", function(event) {
+  if (event.key === "Enter") {
+    hide();
+  }
+});
+
+
+function hide(){
+    document.getElementById("cont-main").style.webkitFilter = "none";        document.getElementById("custAlert").style.display = "block";
+
+    document.getElementById("custAlert").style.display = "none";
 
 }

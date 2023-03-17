@@ -57,8 +57,8 @@
 .men-sidebar{
     float: left;
     padding: 20px 30px;
-    top:20px;
-    background-color: rgb(233, 233, 233);
+    top:-110px;
+    background:-webkit-linear-gradient(100deg, rgba(99, 165, 212, 0.544), rgba(255, 255, 255, 0.451) );
     position:sticky;
 }
 
@@ -103,40 +103,72 @@
     margin-left: 280px;
     display: grid;
     grid-template-columns: 300px 300px 300px 300px;
+    background-image: url(../Img/bg-img/men-cloths-little-blur.webp);
+    background-color: rgba(212, 220, 245, 0.768);
+    background-blend-mode: color;
+    background-size: cover;
     justify-content: center;
+    background-attachment: fixed;
+    margin-bottom: 30px;
+    /* color: wheat; */
 }
 
     .men-card{
-        /* border:1px solid black; */
-        height: 400px;
-        width: 270px;
-        padding: 0px 20px;
+        /* border:.5px solid black; */
+        height: 360px;
+        border-radius: 15px 15px 0px 0px;
+        transition: transform .2s, filter .2s;
+        width: 230px;
+        margin: 30px 20px;
+        box-shadow: 0px 2px 12px -1px gray;
+        background: -webkit-linear-gradient(-80deg, rgba(255, 255, 255, 0.692), rgba(134, 132, 132, 0.632), rgba(255, 255, 255, 0.692), rgba(149, 146, 146, 0.632), rgba(255, 255, 255, 0.692), rgba(162, 160, 160, 0.632), rgba(255, 255, 255, 0.889), rgba(85, 84, 84, 0.933));
+    }.men-card:hover .men-card-rating{
+        bottom: 40px;
+        color: rgb(184, 253, 184);
+        background-color: rgba(7, 0, 0, 0.851);
+    }.men-card:hover{
+        transform: scale(1.04);
+        /* filter:brightness(110%) contrast(120%) ; */
+    }.men-card:hover img{
+        opacity: .8;
     }
         .men-card-imgs{
             /* position: relative; */
             top:0px;
+            border-radius: 15px 15px 0px 0px;
+            height: 250px;
+            overflow: hidden;
+
         }
 
             .men-card-imgs img{
-                width: 270px;
-                height: 300px;
+                width: 230px;
+                transition: opacity .4s;
+                border-radius: 15px 15px 0px 0px;
             }
         .men-card-rating{
+            transition: color .5s, background-color .5s, bottom 1s;
             position: relative;
             display: inline-block;
-            bottom:30px;
+            bottom:20px;
             left: 10px;
             padding: 1px 5px;
             font-weight: bold;
-            color: darkgreen;
-            background-color: rgba(255, 255, 255, 0.916);
+            color: rgba(0, 100, 0, 0);
+            background-color: rgba(255, 255, 255, 0);
         }
         .men-card-name{
             position:relative;
             bottom: 20px;
             margin: 0px 10px;
+            color:rgb(0, 0, 66);
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 18px;
         }
         .men-card-details{
+            font-family: cursive;
+            font-size: 13px;
+            color: rgb(35, 35, 35);
             margin: 0px 10px;
             position: relative;
             bottom: 15px;
