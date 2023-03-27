@@ -1,0 +1,103 @@
+.feedback-form{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    background-image: url(../Img/bg-img/gray\ texture.jpg);
+    background-attachment: fixed;
+    background-color: rgba(255, 255, 255, 0.193);
+    background-blend-mode: color-burn;
+    background-size: cover;
+}
+
+    .feed-form-main{
+        display: flex;
+        max-width: 750px;
+        background-color: rgba(223, 223, 223, 0.707);
+        flex-wrap: wrap;
+        margin: 100px;
+        font-family: Arial, Helvetica, sans-serif;
+        border: none;
+        border-radius: 12px;
+        box-shadow: -8px 0px 2px -2px red, 0px 0px 4px 3px rgb(105, 105, 105);
+    }.feed-form-main p{
+        color: rgb(181, 50, 3);
+        font-weight: bold;
+        font-size: 14px;
+    }.feed-form-main h1{
+        width: 100%;
+        text-align: center;
+        color: rgb(85, 84, 84);
+    }
+
+    .feedback-f{
+        width: 300px;
+        margin: 10px 30px;
+    }
+
+        .feedback-f input[type = 'text'] , .feedback-f select, .feedback-desc textarea{
+            width: 90%;
+            padding: 8px;
+            background-color: rgb(247, 255, 255);
+            border-radius: 5px;
+            border: 1px solid lightblue;
+        }.feedback-f input[type = 'text']:focus-visible, .feedback-f select:focus-visible, .feedback-desc textarea:focus-visible{
+            outline: none;
+            box-shadow: 0px 0px 5px 1px rgb(109, 158, 255);
+        }.feedback-f input[type = 'text']:hover, .feedback-f select:hover, .feedback-desc textarea:focus-visible{
+            background-color: white;
+        }
+
+        .feedback-desc{
+            margin: 10px 30px;
+
+        }
+        label{
+            font-size: 13px;
+        }
+
+        .feed-form-main input[type = 'submit']{
+            height: 37px;
+            width: 120px;
+            margin: 40px;
+           margin-top: 110px;
+           font-size: 17px;
+           font-weight: bold;
+           color: white;
+           background-color: red;
+           border: none;
+            border-radius: 7px;
+            box-shadow: 0px 0px 7px  gray;
+        }.feed-form-main input[type = 'submit']:hover{
+            color: red;
+            background-color: white;
+        }
+       
+
+
+
+        .feed-form-cont{
+            margin: 50px;
+            margin-top: 100px;
+            max-width: 400px;
+            padding: 20px; 
+            height: max-content;
+            text-align: center;
+            box-shadow: 10px 10px 4px 2px rgb(64, 64, 64);
+            background-color: rgb(217, 235, 230);
+        }.feed-form-cont h2{
+            text-transform: uppercase;
+            font-family: 'Tilt Prism', cursive;
+            color: red;
+        }.feed-form-cont span{
+            font-style: italic;
+            color: rgb(0, 0, 201);
+            font-family: Arial, Helvetica, sans-serif;
+            letter-spacing: 2px;
+            font-size: 14px;
+        }.feed-form-cont p{
+            font-size: 17px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+       

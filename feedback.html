@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="CSS/feedback.css" type = "text/css">
+    <link rel="stylesheet" href="CSS/header.css" type = "text/css">
+    <link rel="stylesheet" href="CSS/footer.css" type = "text/css">
+    <link rel="stylesheet" href="CSS/globalStyle.css" type = "text/css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap" rel="stylesheet">
+    
+    <script type = "text/javascript" src = "JS/feedback.js"></script>
+    <title>Feedback Form</title>
+</head>
+<body>
+
+     <!-- header  -->
+
+<header>
+    <div class="left-h">
+        <a href="index.html"><img src="Img/logo/fabricalogo-tr.png" alt="Logo" class="brand-logo"/></a>
+    </div>
+  
+    <div class="searchbar">
+        <form action="">
+            <input type="text" name = "searchcont" placeholder = "Type here...">
+            <button>Search</button>
+        </form>
+    </div>
+  
+    <div class="expand">
+        <img src="Img/logo/menu.jpg" alt="" height="30px">
+    </div>
+  
+    <div class="right-h">
+        <nav>
+            <ul type = "none">
+                <li><a  href="index.html">Home</a></li>
+                <li><a  href="about.html">About</a></li>
+                <li><a  href="services.html">Services</a></li>
+                <li>
+                    <a   href="#">Categories ▼</a>
+                    <ul type = "none" id = "sublist">
+                        <li><a href="mens.html">Men's wear</a></li>
+                        <li><a href="kids.html">Kids wear</a></li>
+                        <li><a href="girls.html">Girls Corner</a></li>
+                        
+                    </ul>
+                
+                </li>
+                <li><a  href="contact.html">Contact us</a></li>
+                <li><a  href="login-resister.html">Login</a></li>
+            </ul>
+        </nav>
+    </div>
+  </header>
+
+    <div class="feedback-form">
+
+        <div class="feed-form-cont">
+            <h2>Let's work together!</h2>
+			<span>Help us create the perfect clothing line for you.</span>
+			<p>At Fabrica, we believe that our customers are our partners. That's why we want to work with you to create the perfect clothing line. Your feedback is invaluable to us, and we're committed to using it to make our products even better. So, let's work together to create something amazing!</p>
+		
+        </div>
+
+        <div class="feed-form-main">
+            <h1>Feedback Form</h1>
+            <div class="feedback-f">
+                <p>Enter Your Name</p>
+                <input type="text" name="name" id="" title="Write your name here" placeholder="e.g. Ketan Jindal">
+            </div>
+
+            <div class="feedback-f">
+                <p>Email Address</p>
+                <input type="text" name="name" id="" title="Write your email here" placeholder="Enter your email">
+            </div>
+
+            <div class="feedback-f">
+                <p>Feedback category</p>
+                <select id="feedback_category" name="feedback_category">
+                    <option value="" selected disabled>SELECT</option>
+                    <option value="product">Product</option>
+                    <option value="service">Service</option>
+                    <option value="website">Website</option>
+                    <option value="customer_support">Customer Support</option>
+                </select>
+            </div>
+
+            <div class="feedback-f">
+                <p>Feedback type</p>
+                <input type="radio" id="suggestion" name="feedback_type" value="suggestion">
+                <label for="suggestion">Suggestion</label> <br>
+                <input type="radio" id="complaint" name="feedback_type" value="complaint">
+                <label for="complaint">Complaint</label><br>
+                <input type="radio" id="appreciation" name="feedback_type" value="appreciation">
+                <label for="appreciation">Appreciation</label>
+            </div>
+
+            <div class="feedback-desc">
+                <p>Feedback description</p>
+                <textarea id="feedback_description" name="feedback_description" rows="5" cols="50"></textarea>           
+            </div>
+
+            <input type="submit" value="Submit" class = "submit-btn-feed">
+
+            
+            
+        </div>
+
+        
+
+    </div>
+
+
+      <!-- footer -->
+
+<iframe src="footer.html" frameborder="0" scrolling = "no" id = "footer-frame"></iframe>
+
+  
+    
+</body>
+</html>

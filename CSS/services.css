@@ -33,25 +33,25 @@
     }
 
     .serv-first-1{
-        animation: avi 6s  infinite;
+        animation: avi 4s  infinite;
         left:0%
 
     }
     .serv-first-2{
         left:0%;
-        animation: avi1 6s  infinite;
+        animation: avi1 4s  infinite;
 
     }
     .serv-first-3{
         left:0%;
-        animation: avi 6s  3s   infinite;
+        animation: avi 4s  -2s   infinite;
         opacity: 0;
 
 
     }
     .serv-first-4{
         left: 0%;
-        animation: avi1 6s 3s  infinite;
+        animation: avi1 4s -2s  infinite;
         opacity: 0;
 
 

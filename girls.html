@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Girl's corner</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
     <script type = "text/javascript" src = "JS/girls.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -25,7 +26,7 @@
 
 <header>
     <div class="left-h">
-        <img src="Img/logo/fabricalogo-tr.png" alt="Logo" class="brand-logo"/>
+        <a href="index.html"><img src="Img/logo/fabricalogo-tr.png" alt="Logo" class="brand-logo"/></a>
     </div>
 
     <div class="searchbar">
@@ -36,7 +37,7 @@
     </div>
 
     <div class="expand">
-        <img src="Img/logo/girlsu.jpg" alt="" height="30px">
+        <img src="Img/logo/menu.jpg" alt="" height="30px">
     </div>
 
     <div class="right-h">
@@ -49,7 +50,7 @@
                     <a   href="#">Categories ▼</a>
                     <ul type = "none" id = "sublist">
                         <li><a href="mens.html">Men's wear</a></li>
-                        <li><a href="">Kids wear</a></li>
+                        <li><a href="kids.html">Kids wear</a></li>
                         <li><a href="girls.html">Girls Corner</a></li>
                         
                     </ul>
@@ -88,13 +89,12 @@
                     <hr>
                     <h3>Categories</h3>
                     <ul>
-                        <li><input type="checkbox" name="" id=""> Tops</li>
-                        <li><input type="checkbox" name="" id=""> Jeans</li>
-                        <li><input type="checkbox" name="" id=""> Bottoms</li>
-                        <li><input type="checkbox" name="" id=""> Outerwear</li>
-                        <li><input type="checkbox" name="" id=""> Accessories</li>
-                        <li><input type="checkbox" name="" id=""> Suits</li>
-                        <li><input type="checkbox" name="" id=""> Activewear</li>  
+                        <li><input onchange="updateProduct(this);" type="checkbox" value = "girls-top-check" name="" id="check-top"> Tops</li>
+                        <li><input onchange="updateProduct(this);" type="checkbox" value = "girls-jeans-check" name="" id="check-jeans"> Jeans</li>
+                        <li><input onchange="updateProduct(this);" type="checkbox" value = "girls-bottoms-check" name="" id="check-bottoms"> Bottoms</li>
+                        <li><input onchange="updateProduct(this);" type="checkbox" value = "girls-outwears-check" name="" id="check-outwear"> Outerwear</li>
+                        <li><input onchange="updateProduct(this);" type="checkbox" value = "girls-shoes-check" name="" id="check-shoes"> Shoes</li>
+                        <li><input onchange="updateProduct(this);" type="checkbox" value = "girls-activewear-check" name="" id="check-activewear"> Activewear</li>  
                     </ul>
                 </div>
 
@@ -128,7 +128,7 @@
 
 
                                 <!-- Product 1 -->
-                <a class="girls-card" href="product.html">
+                <a class="girls-card girls-top-check" href="product.html">
                     <div class="girls-card-imgs">
                         <img src="Img/main/girls-1-girlstop.webp" alt="Girls Top">
                     </div>
@@ -143,7 +143,7 @@
                 </a>
 
                 <!-- Product 2 -->
-                <a class="girls-card" href="product.html">
+                <a class="girls-card girls-bottoms-check girls-jeans-check" href="product.html">
                     <div class="girls-card-imgs">
                         <img src="Img/main/girls-2-jeans.webp" alt="Girls Jeans">
                     </div>
@@ -158,7 +158,7 @@
                 </a>
 
                 <!-- Product 3 -->
-                <a class="girls-card" href="product.html">
+                <a class="girls-card girls-outwears-check" href="product.html">
                     <div class="girls-card-imgs">
                         <img src="Img/main/girls-3-dress.jpg" alt="Girls Dress">
                     </div>
@@ -173,7 +173,7 @@
                 </a>
 
                 <!-- Product 4 -->
-                <a class="girls-card" href="product.html">
+                <a class="girls-card girls-bottoms-check girls-outwears-check" href="product.html">
                     <div class="girls-card-imgs">
                         <img src="Img/main/girls-4-short.jpg" alt="Girls Bottoms">
                     </div>
@@ -188,7 +188,7 @@
                 </a>
 
                  <!-- Product 5 -->
-                    <a class="girls-card" href="product.html">
+                    <a class="girls-card girls-jeans-check girls-bottoms-check girls-outwears-check" href="product.html">
                         <div class="girls-card-imgs">
                             <img src="Img/main/girls-5-jeans.webp" alt="">
                         </div>
@@ -204,7 +204,7 @@
                     
 
                      <!-- Product 6 -->
-                    <a class="girls-card" href="product.html">
+                    <a class="girls-card girls-outwears-check" href="product.html">
                         <div class="girls-card-imgs">
                             <img src="Img/main/girls-6-dress.avif" alt="">
                         </div>
@@ -220,7 +220,7 @@
                     
 
                      <!-- Product 7 -->
-                    <a class="girls-card" href="product.html">
+                    <a class="girls-card girls-top-check girls-activewear-check" href="product.html">
                         <div class="girls-card-imgs">
                             <img src="Img/main/girls-7-jacket.jpg" alt="Jackat">
                         </div>
@@ -237,7 +237,7 @@
 
 
                     <!-- product - 8  -->
-                    <a class="girls-card" href="product.html">
+                    <a class="girls-card girls-bottoms-check girls-activewear-check" href="product.html">
                         <div class="girls-card-imgs">
                             <img src="Img/main/girls-8-lower.jpg" alt="girls lower">
                         </div>
@@ -252,7 +252,7 @@
                     </a>
 
 <!-- product 9  -->
-                    <a class="girls-card" href="product.html">
+                    <a class="girls-card girls-activewear-check girls-top-check" href="product.html">
                         <div class="girls-card-imgs">
                             <img src="Img/main/girls-9-hoddie.webp" alt="Girls Classics T7 Hoodie">
                         </div>
@@ -268,7 +268,7 @@
 
                     
 <!-- product 10  -->
-                    <a class="girls-card" href="product.html">
+                    <a class="girls-card girls-bottoms-check girls-activewear-check" href="product.html">
                         <div class="girls-card-imgs">
                             <img src="Img/main/girls10-running.jpg" alt="">
                         </div>
@@ -285,7 +285,7 @@
 
    <!-- product 11  -->           
 
-            <a class="girls-card" href="product.html">
+            <a class="girls-card girls-activewear-check girls-outwears-check" href="product.html">
                 <div class="girls-card-imgs">
                     <img src="Img/main/girls11-cap.webp" alt="">
                 </div>
@@ -300,7 +300,7 @@
             </a>
 
 <!-- product 12  -->
-            <a class="girls-card" href="product.html">
+            <a class="girls-card girls-shoes-check girls-activewear-check" href="product.html">
                 <div class="girls-card-imgs">
                     <img src="Img/main/girls-12;shoes.png" alt="">
                 </div>
@@ -315,7 +315,7 @@
             </a>
 
       <!-- product 13        -->
-            <a class="girls-card" href="product.html">
+            <a class="girls-card girls-top-check girls-activewear-check" href="product.html">
                 <div class="girls-card-imgs">
                     <img src="Img/main/girls-13-t.png" alt="">
                 </div>
@@ -332,7 +332,7 @@
   
             
             <!-- product 14  -->
-            <a class="girls-card" href="product.html">
+            <a class="girls-card girls-jeans-check girls-bottoms-check girls-outwears-check" href="product.html">
                 <div class="girls-card-imgs">
                     <img src="Img/main/girls-14-jeans.png" alt="">
                 </div>
@@ -349,7 +349,7 @@
            
             
  <!-- product 15  -->
-            <a class="girls-card" href="product.html">
+            <a class="girls-card girls-shoes-check girls-outwears-check" href="product.html">
                 <div class="girls-card-imgs">
                     <img src="Img/main/girls-15-snekers.jpg" alt="">
                 </div>
@@ -365,7 +365,7 @@
 
             
 <!-- product 16  -->
-            <a class="girls-card" href="product.html">
+            <a class="girls-card girls-shoes-check girls-activewear-check" href="product.html">
                 <div class="girls-card-imgs">
                     <img src="Img/main/girls-16-shoes.png" alt="">
                 </div>
@@ -380,8 +380,8 @@
             </a>
 
 <!-- product 17  -->
-                <a class="girls-card" href="product.html">
-                    <div class="girls-card-imgs">
+            <a class="girls-card girls-shoes-check girls-activewear-check" href="product.html">
+                <div class="girls-card-imgs">
                         <img src="Img/main/girls-17-shoes.webp" alt="">
                     </div>
                     <div class="girls-card-rating">
@@ -395,7 +395,7 @@
                 </a>
 
 <!-- product 18  -->
-                <a class="girls-card" href="product.html">
+                <a class="girls-card girls-bottoms-check girls-activewear-check" href="product.html">
                     <div class="girls-card-imgs">
                         <img src="Img/main/girls-18Leggings.jpg" alt="">
                     </div>
@@ -411,7 +411,7 @@
 
 <!-- product 19           -->
 
-                <a class="girls-card" href="product.html">
+                <a class="girls-card girls-top-check girls-activewear-check girls-outwears-check" href="product.html">
                     <div class="girls-card-imgs">
                         <img src="Img/main/girls-19-hoddie.png" alt="">
                     </div>

@@ -103,7 +103,7 @@
     grid-template-columns: 300px 300px 300px 300px;
     background-image: url(../Img/bg-img/pinkbg.jpg);
     background-color: rgba(212, 220, 245, 0.511);
-    
+    min-height: 850px;
     background-blend-mode: color;
     background-size: cover;
     justify-content: center;

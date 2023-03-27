@@ -9,7 +9,7 @@
 	--bcol-3:#d65a31cc;
 	--bcol-4:#eeeeeec5;
 
-	
+	 
 }
 
 
@@ -148,16 +148,16 @@ body{
 			margin-bottom: 20px;
 		}
 		.slide:first-child{
-			animation: slide1 16s 12s infinite;
+			animation: slide1 16s -12s infinite;
 			
 		}
 
 		.slide:nth-child(2){
-			animation: slide1 16s 8s  infinite; 
+			animation: slide1 16s -8s  infinite; 
 		}
 
 		.slide:nth-child(3){
-			animation: slide1 16s 4s  infinite; 
+			animation: slide1 16s -4s  infinite; 
 		}
 		.slide:nth-child(4){
 			animation: slide1 16s  infinite; 
@@ -227,7 +227,7 @@ body{
 
 	.second-l-0, .second-l-1{
 		padding: 18px;
-		background-color: #bed3f4cc;
+		background-color: #f5f8ffcc;
 		color: rgb(11, 0, 0);
 		margin: 20px 40px 50px 40px;
 		width: 450px;

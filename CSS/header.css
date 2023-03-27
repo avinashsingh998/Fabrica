@@ -1,7 +1,7 @@
 header{
     display: flex;
     justify-content: space-evenly;
-    background:-webkit-linear-gradient(top left,rgba(38, 142, 238, 0.922), rgba(66, 164, 159, 0.789),rgba(38, 142, 238, 0.922));
+    background:-webkit-linear-gradient(100deg,rgba(38, 142, 238, 0.922), rgba(66, 164, 159, 0.789),rgba(38, 142, 238, 0.922));
     height: 90px;
     box-shadow: 10px 0px 12px black;
     font-family: Arial, Helvetica, sans-serif;
@@ -110,22 +110,20 @@ header{
 
                     ul li a{
                         text-decoration: none;
-                        /* color: black; */
                         color: white;
                         font-size: 16px;
                         font-weight: bold;
                         transition: color .2s, text-shadow .4s;
-                        /* text-shadow: 0px 0px 2px black; */
-
                     }
 
                     ul li a:hover{
                         color:rgb(3, 39, 82);
                         text-shadow: 1px 0px 1px rgb(247, 243, 243);
-
                     }
 
-                    
+                    ul li a:active{
+                        color: red;
+                    }
 
                     #sublist{
                         display: none;
